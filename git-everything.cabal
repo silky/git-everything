@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 0f6c90a4c4ead725110cf80c71c8aa41f121617e85d9001612f9b60fa560e552
+-- hash: 4c02d5d96d52dd9e0245994396b1b9663b869fe1ab5c39d0d6ce03b2e2c396a3
 
 name:           git-everything
 version:        0.1.0.0
@@ -11,7 +11,7 @@ homepage:       https://github.com/silky/git-everything#readme
 author:         Noon van der Silk
 maintainer:     noonsilk@gmail.com
 copyright:      Noon van der Silk
-license:        BSD3
+license:        MIT
 license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
