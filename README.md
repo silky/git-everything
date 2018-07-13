@@ -17,7 +17,7 @@ stack install
 ### Usage
 
 ```
-> git-everything --help                                                                                                                    Fri Jul 1
+> git-everything --help
 
 git-everything - flatten a git repository by commit.
 
