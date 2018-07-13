@@ -15,6 +15,9 @@ dependencies:
   - base >= 4.7 && < 5
   - gitlib
   - gitlib-libgit2
+  - optparse-applicative
+  - shelly
+  - string-conv
   - tagged
 
 executables:

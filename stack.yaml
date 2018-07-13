@@ -3,5 +3,5 @@ resolver: lts-8.0
 packages:
   - .
 
-extra-deps: []
-
+extra-deps:
+  - shelly-1.8.1@sha256:91dd8eacf0b1f656accee379649a411e7a4cd8248226b0a86ece5012848579b4

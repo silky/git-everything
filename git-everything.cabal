@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 3a07356748447d0179ccf7e9dbdfad3e51b880c2229d45dbb0a61cfde4976e41
+-- hash: 0f6c90a4c4ead725110cf80c71c8aa41f121617e85d9001612f9b60fa560e552
 
 name:           git-everything
 version:        0.1.0.0
@@ -28,5 +28,8 @@ executable git-everything
       base >=4.7 && <5
     , gitlib
     , gitlib-libgit2
+    , optparse-applicative
+    , shelly
+    , string-conv
     , tagged
   default-language: Haskell2010
