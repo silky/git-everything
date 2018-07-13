@@ -37,11 +37,6 @@ main = execParser opts >>= go
     desc = "Flatten a git repository by checking out all the commits into a particular folder."
 
 
--- destDir, repoDir :: String
--- destDir = "/home/noon/tmp/git-everything"
--- repoDir = "."
-
-
 go :: Options -> IO ()
 go opts = do
   withRepository lgFactory (repoDir opts) $ do
